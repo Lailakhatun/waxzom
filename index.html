@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>waxom</title>
+  <!-- google font -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;700&display=swap" rel="stylesheet">
+  <!-- css file -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/venobox.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#active_part" data-bs-offset="0"  style="overflow-x:hidden;">
+
+  <div class="pre-loader">
+    <img src="images/pre-loader.gif" alt="pre-loader">
+</div>
+  <!-- ===================== Header part start =====================  -->
+  <!-- Mobile Menu -->
+  <header id="header_part" class="menu-top">
+    <div class="container px-lg-0">
+      <div class="row">
+        <div class="col-lg-2">
+          <div class="logo_part">
+            <img src="images/header-logo.png" alt="logo">
+            <div class="openMenu" onclick="openMenu()">
+              <i class="fa-solid fa-bars"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-10">
+          <div class="main_menu" id="navber">
+            <div class="close_Menu" onclick="closeMenu()">
+              <i class="fa-solid fa-xmark"></i>
+            </div>
+            <ul>
+              <li><a href="#banner_part" onclick="closeMenu()">Home</a></li>
+              <li><a href="#about_part" onclick="closeMenu()">about us</a></li>
+              <li><a href="#protfolio_part" onclick="closeMenu()">protfolio</a></li>
+              <li><a href="#latest_part" onclick="closeMenu()">features</a></li>
+              <li><a href="#blog_part" onclick="closeMenu()">blog</a></li>
+              <li><a href="#" onclick="closeMenu()">pricing</a></li>
+              <li><a href="#mobile_part" onclick="closeMenu()">shortcodes</a></li>
+              <li><a href="#fooder_part" onclick="closeMenu()">contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- Mobile menu -->
+  <!-- ===================== Header part end =====================  -->
+
+  <!-- ===================== Nav part start =====================  -->
+  <nav class="navbar navbar-expand-lg main_nav menu-top" id="active_part">
+    <div class="container px-lg-0">
+      <a class="navbar-brand" href="#"><img src="images/header-logo.png" alt="logo"></a>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="#banner_part">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about_part">about us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#protfolio_part">protfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#latest_part">features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#blog_part">blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#mobile_part">shortcodes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#fooder_part">contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===================== Nav part end =====================  -->
+
+  <!-- ===================== Banner part start =====================  -->
+  <section id="banner_part"   class="rafi">
+    <div class="banner-image">
+      <div class="banner_item" style="background: url(images/banner-1.jpg) no-repeat center / cover;"></div>
+      <div class="banner_item" style="background: url(images/banner-2.jpg) no-repeat center / cover;"></div>
+      <div class="banner_item" style="background: url(images/banner-3.jpg) no-repeat center / cover;"></div>
+    </div>
+    <div class="banner_info text-center">
+      <div class="container px-lg-0">
+        <div class="row">
+          <div class="col-lg-10 m-auto">
+            <div class="banner_text text-center">
+              <h2>Unique and Modern Design</h2>
+              <h1>Portfolio PSD <span>Template</span></h1>
+              <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat
+                facer possim assum.</p>
+              <a href="#">get started</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="scrollify">
+      <a href="#about_part"><i class="fa-solid fa-arrow-down"></i></a>
+    </div>
+  </section>
+  <!-- ===================== Banner part end =====================  -->
+
+  <!-- ===================== About part start =====================  -->
+  <section id="about_part"  class="rafi">
+    <div class="container px-lg-0">
+      <div class="row">
+        <div class="col-lg-8 col-xl-5 m-auto">
+          <div class="common-heading text-center">
+            <h2>about <span>us</span></h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque maiores sed distinctio.<p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 col-md-6">
+          <div class="about_item text-center">
+            <img src="images/img-1.png" alt="images">
+            <h3>Web & App Design</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint sunt tenetur necessitatibus dolorem illum
+              rerum quas placeat consectetur sequi possimus?</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="about_item text-center">
+            <img src="images/img-2.png" alt="images">
+            <h3>development</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint sunt tenetur necessitatibus dolorem illum
+              rerum quas placeat consectetur sequi possimus?</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="about_item text-center">
+            <img src="images/img-3.png" alt="images">
+            <h3>customization</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint sunt tenetur necessitatibus dolorem illum
+              rerum quas placeat consectetur sequi possimus?</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="about_item text-center">
+            <img src="images/img-3.png" alt="images">
+            <h3>Marketing</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint sunt tenetur necessitatibus dolorem illum
+              rerum quas placeat consectetur sequi possimus?</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ===================== About part end =====================  -->
+
+  <!-- ===================== protfolio part start =====================  -->
+  <section id="protfolio_part"  class="rafi">
+    <div class="container px-lg-0">
+      <div class="row">
+        <div class="col-lg-8 col-xl-5 m-auto">
+          <div class="common-heading text-center">
+            <h2 class="text-white">Waxom is Realization of <span>your Ideas</span>.</h2>
+            <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque maiores sed
+              distinctio.<p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="images/prot-1.jpg" />
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ===================== protfolio part end =====================  -->
+
+  <!-- ===================== Wordpress theme part start =====================  -->
+  <section id="theme_part"  class="rafi">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-9">
+          <div class="theme_text">
+            <h2>Waxom Multipurpose WordPress Theme</h2>
+            <p>Don't Forget to Rate the Template. Thanks so much!</p>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="theme_button text-center">
+            <a href="#">purchase now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ===================== Wordpress theme part end =====================  -->
+
+  <!-- ===================== Latest project part start =====================  -->
+  <section id="latest_part"  class="rafi">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-xl-5 m-auto">
+          <div class="common-heading text-center">
+            <h2>Our Latest <span>Projects.</span></h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque maiores sed distinctio.<p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-7 col-xl-6 m-auto">
+          <div class="latest_button text-center">
+            <button type="button" data-filter="all">All</button>
+            <button type="button" data-filter=".web">web design</button>
+            <button type="button" data-filter=".mobile">mobile app</button>
+            <button type="button" data-filter=".illus">illustration</button>
+            <button type="button" data-filter=".photo">Photography</button>
+          </div>
+        </div>
+      </div>
+      <div class="row filter-container">
+        <div class="col-md-4">
+          <div class="latest_gallery">
+            <div class="gallery_part mix web">
+              <div class="latest_img">
+                <img src="images/l-img 1(web).jpg" class="img-fluid w-100" alt="web">
+              </div>
+              <div class="latest_text text-center">
+                <h4>Claritas Etiam Processus</h4>
+                <span>web design</span>
+              </div>
+            </div>
+            <div class="gallery_part mix mobile">
+              <div class="latest_img">
+                <img src="images/l-img 1 (mobile).jpg" class="img-fluid w-100" alt="mobile">
+              </div>
+              <div class="latest_text text-center">
+                <h4>Claritas Etiam Processus</h4>
+                <span>mobile app</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="latest_gallery">
+            <div class="gallery_part mix illus">
+              <div class="latest_img">
+                <img src="images/l-img 1 (illus) .jpg" class="img-fluid w-100" alt="illus">
+              </div>
+              <div class="latest_text text-center">
+                <h4>Claritas Etiam Processus</h4>
+                <span>illestration</span>
+              </div>
+            </div>
+            <div class="gallery_part mix photo">
+              <div class="latest_img">
+                <img src="images/l-img 1(photo).jpg" class="img-fluid w-100" alt="mobile">
+              </div>
+              <div class="latest_text text-center">
+                <h4>Claritas Etiam Processus</h4>
+                <span>Photography</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="latest_gallery">
+            <div class="gallery_part mix web">
+              <div class="latest_img">
+                <img src="images/l-img 2(web).jpg" class="img-fluid w-100" alt="web">
+              </div>
+              <div class="latest_text text-center">
+                <h4>Claritas Etiam Processus</h4>
+                <span>web design</span>
+              </div>
+            </div>
+            <div class="gallery_part mix mobile">
+              <div class="latest_img">
+                <img src="images/l-img 2 (mobile).jpg" class="img-fluid w-100" alt="mobile">
+              </div>
+              <div class="latest_text text-center">
+                <h4>Claritas Etiam Processus</h4>
+                <span>mobile app</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ===================== Latest project part end =====================  -->
+
+  <!-- ===================== video part start =====================  -->
+  <section id="video_part" style="background: url(images/video-bg.jpg) no-repeat center / cover fixed;"  class="rafi">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 m-auto text-center">
+          <div class="video_text">
+            <div class="video">
+              <a class="venobox" data-autoplay="true" data-vbtype="video" href="https://youtu.be/668nUCeBHyY"><i
+                  class="fa-solid fa-play"></i></a>
+            </div>
+            <h2>waxom video presentation</h2>
+            <p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius, qui sequitur mutationem
+              consuetudium.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ===================== video part end =====================  -->
+
+  <!-- ===================== Mobile part start =====================  -->
+  <section id="mobile_part"  class="rafi">
+    <div class="container px-lg-0">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="mobile_image">
+            <img src="images/hand-phone.png" class="img-fluid w-100" alt="phone">
+          </div>
+        </div>
+        <div class="col-lg-8">
+          <div class="mobile_text">
+            <h2>Excellent for Mobile Devices.</h2>
+            <p>Qisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea
+              commodo consequat. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius
+              claritas. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
+            <ul>
+              <li><i class="fa-solid fa-angle-right"></i>Nam liber tempor cum soluta nobis eleifend option;</li>
+              <li><i class="fa-solid fa-angle-right"></i>Option congue nihil imperdiet doming id quod mazim placerat facer;</li>
+              <li> <i class="fa-solid fa-angle-right"></i>Eodem modo typi, qui nunc nobis videntur parum futurum;</li>
+              <li><i class="fa-solid fa-angle-right"></i>Investigationes demonstraverunt lectores</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ===================== Mobile part end =====================  -->
+
+  <!-- ===================== Counter part start =====================  -->
+  <section id="counter_part" style="background: url(images/counter-bg.jpg) no-repeat center / cover fixed;"  class="rafi">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col">
+          <div class="counter_item text-center">
+            <i class="fa-solid fa-user-astronaut"></i>
+            <h2 class="counter">3587</h2>
+            <span>Satisfied Clients</span>
+          </div>
+        </div>
+        <div class="col">
+          <div class="counter_item text-center">
+            <i class="fa-solid fa-mug-hot"></i>
+            <h2 class="counter">207</h2>
+            <span>Cups of coffee</span>
+          </div>
+        </div>
+        <div class="col">
+          <div class="counter_item text-center">
+            <i class="fa-brands fa-hive"></i>
+            <h2 class="counter">2500</h2>
+            <span>Blog posts</span>
+          </div>
+        </div>
+        <div class="col">
+          <div class="counter_item">
+            <i class="fa-solid fa-heart"></i>
+            <h2 class="counter">873</h2>
+            <span>likes</span>
+          </div>
+        </div>
+        <div class="col">
+          <div class="counter_item text-center">
+            <i class="fa-solid fa-poo"></i>
+            <h2 class="counter">900</h2>
+            <span>We lauanched</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ===================== Counter part end =====================  -->
+
+  <!-- ===================== Blog part start =====================  -->
+  <section id="blog_part"  class="rafi">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-xl-5 m-auto">
+          <div class="common-heading text-center">
+            <h2>Recent <span>Posts.</span></h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque maiores sed distinctio.<p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="blog_info">
+            <div class="blog_img">
+              <img src="images/blog-img-1.jpg" class="img-fluid w-100" alt="image">
+              <span>30 sep.</span>
+            </div>
+            <div class="blog_text">
+              <h4>Lorem ipsum dolor sit amet</h4>
+              <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+              <a href="#">read more <i class="fas fa-caret-right"></i></a>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="blog_info">
+            <div class="blog_img">
+              <img src="images/blog-img-2.jpg" class="img-fluid w-100" alt="image">
+              <span>30 sep.</span>
+            </div>
+            <div class="blog_text">
+              <h4>Lorem ipsum dolor sit amet</h4>
+              <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+              <a href="#">read more <i class="fas fa-caret-right"></i></a>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="blog_info">
+            <div class="blog_img">
+              <img src="images/blog-img-3.jpg" class="img-fluid w-100" alt="image">
+              <span>30 sep.</span>
+            </div>
+            <div class="blog_text">
+              <h4>Lorem ipsum dolor sit amet</h4>
+              <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+              <a href="#">read more <i class="fas fa-caret-right"></i></a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ===================== Blog part end =====================  -->
+
+  <!-- ===================== logo part start =====================  -->
+  <section id="logo_part" style="background: url(images/logo-bg.jpg) no-repeat center / cover;"  class="rafi">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="logo_img">
+            <img src="images/logo-1.png" alt="logo">
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="logo_img">
+            <img src="images/logo-2.png" alt="logo">
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="logo_img">
+            <img src="images/logo-3.png" alt="logo">
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="logo_img">
+            <img src="images/logo-4.png" alt="logo">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ===================== logo part end =====================  -->
+
+  <!-- ===================== Fooder part start =====================  -->
+  <footer id="fooder_part"  class="rafi">
+    <div class="fooder-1">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="fooder_text">
+              <a href="#"><img src="images/header-logo.png" alt="logo"></a>
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci suscipit lobortis claritatem.</p>
+              <a href="#">read more<i class="fas fa-caret-right"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="fooder_text">
+             <h3>Recent posts</h3>
+             <span>September 08, 2015</span>
+             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+             <hr>
+             <span>September 08, 2015</span>
+             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+             <hr>
+             <span>September 08, 2015</span>
+             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="fooder_text">
+             <h3>our twitter</h3>
+             <p>@waxom Cum soluta nobis eleifend option congue nihil imperdiet doming</p>
+             <span>3 mins ago</span>
+             <hr>
+             <p>@waxom Cum soluta nobis eleifend option congue nihil imperdiet doming</p>
+             <span>3 mins ago</span>
+             <hr>
+             <p>@waxom Cum soluta nobis eleifend option congue nihil imperdiet doming</p>
+             <span>3 mins ago</span>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="fooder_text">
+             <h3>dribble widget</h3>
+             <p>@waxom Cum soluta nobis eleifend option congue nihil imperdiet doming</p>
+             <span>3 mins ago</span>
+             <hr>
+             <p>@waxom Cum soluta nobis eleifend option congue nihil imperdiet doming</p>
+             <span>3 mins ago</span>
+             <hr>
+             <p>@waxom Cum soluta nobis eleifend option congue nihil imperdiet doming</p>
+             <span>3 mins ago</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="fooder-2">
+      <div class="container px-lg-0">
+        <div class="row">
+          <div class="col-md-6 col-lg-7">
+            <div class="fooder-2-text">
+            <ul class="d-flex">
+              <li>Copyright © 2015 Waxom</li>
+              <li>Privacyt Policy</li>
+              <li>FAQ</li>
+              <li>Policy</li>
+            </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-5">
+            <div class="fooder-2-text1">
+              <span>Designed by ThemeFire</span>
+              <span>Only on Envato Market</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer_mobile">
+      <div class="container px-lg-0">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <ul class="d-flex">
+              <li>Copyright © 2015 Waxom</li>
+              <li>Privacyt Policy</li>
+              <li>FAQ</li>
+              <li>Policy</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </footer>
+  <!-- ===================== Fooder part end =====================  -->
+
+  <!-- ===================== Back to top button =====================  -->
+  <div class="back-to-top">
+    <i class="fa-solid fa-angle-up"></i>
+  </div>
+
+  <!-- js file -->
+  <script src="js/jquery-1.12.4.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/mixitup.min.js"></script>
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/venobox.min.js"></script>
+  <!-- scrollify  -->
+ <script src="js/jquery.scrollify.js"></script>
+  <!-- counter up -->
+  <script src="js/waypoints.min.js"></script>
+  <script src="js/jquery.counterup.min.js"></script>
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>
